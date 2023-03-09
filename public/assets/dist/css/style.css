@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Kaushan+Script&family=Poppins:wght@400;500&family=Roboto:wght@100;300;400;500&family=Satisfy&family=Unbounded:wght@900&display=swap');
+
+:root {
+    --main-color: #bf00ff;
+    --color-dark:#1D2231;
+    --text-grey:#8390A2;
+
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+.sidebar{
+    width: 345px;
+    height: 100%;
+    position: fixed;
+    background: var(--main-color);
+    left: 0;
+    top: 0;
+}
+
+.main-content{
+    margin-left: 345px;
+}
+
